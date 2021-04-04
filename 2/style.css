@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+}
+.full-height {
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: silver;
+}
+#loginFrame{
+    background-image: url(background.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: 450px auto;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+#formFrame{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    opacity: 70%;
+}
+.typeInput{
+    width: 300px;
+}
+.frameObjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#submitBtn{
+    width: 80px;
+    height: 20px;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    background-color: green;
+    color: white;
+}
+#forgotPassword{
+    
+}
+#signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#frameHeader{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginForm{
+    width: 400px;
+    display: flex;
+    justify-content: space-between
+    ;
+}
+#formLabels{
+    display: flex;
+    flex-direction: column;
+}
+#formInputs{
+
+}
+#otherDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.textInputs{
+    width: 300px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: gray;
+}
+.textInputs:focus{
+    outline: none;
+    border-bottom-color: green;
+}
