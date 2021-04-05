@@ -75,15 +75,17 @@ header>div{
     display: flex;
     flex-wrap: wrap;
 }
+.postPhoto{
+    position: relative;
+}
 .statisticsDiv{
-    width: 50%;
+    width: 187px;
     height: 50px;
     background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 25px;
-    margin: 10px;
     position: absolute;
 }
 .statisticsDiv>img{
