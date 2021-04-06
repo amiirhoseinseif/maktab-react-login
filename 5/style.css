@@ -11,8 +11,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-#dot{
-    color: #f65370;
+.dot{
+    width: 6px;
+    height: 6px;
+    background-color: #f65370;
+    border-radius: 3px;
 }
 #bodyDiv{
     width: 100%;
@@ -67,18 +70,34 @@ header>div{
     color: #ed5772;
 }
 .post{
-    width: 25%;
-    height: 500px;
+    width: 24%;
+    margin: 7px;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
 }
 #blogPosts{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+}
+.postImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .postPhoto{
+    width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .statisticsDiv{
+    margin-top: 10px;
+    margin-right: 10px;
     width: 187px;
     height: 50px;
     background-color: red;
@@ -92,7 +111,46 @@ header>div{
     height: 50%;
     width: auto;
 }
-.postPhoto>img{
+.postImage>img{
     width: 100%;
     position: relative;
+}
+.imageDescription{
+    position: absolute;
+    background-color: white;
+    align-self: flex-end;
+    font-size: 30px;
+    width: 80%;
+    text-align: justify;
+}
+.topDetail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    font-size: 20px;
+}
+#logo>.dot{
+    margin-top: 13px;
+}
+.postCaption{
+    opacity: 50%;
+    text-align: center;
+}
+.tag{
+    width: 30px;
+    height: 30px;
+}
+.bottomDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
 }
